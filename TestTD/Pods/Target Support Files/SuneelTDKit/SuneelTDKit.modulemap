@@ -1,0 +1,6 @@
+framework module SuneelTDKit {
+  umbrella header "SuneelTDKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

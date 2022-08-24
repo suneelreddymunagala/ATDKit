@@ -1,0 +1,27 @@
+PODS:
+  - DropDown (2.3.13)
+  - LTSupportAutomotive (1.0)
+  - SuneelTDKit (1.0.0):
+    - DropDown
+    - LTSupportAutomotive (~> 1.0)
+
+DEPENDENCIES:
+  - SuneelTDKit (from `../SuneelTDKit`)
+
+SPEC REPOS:
+  trunk:
+    - DropDown
+    - LTSupportAutomotive
+
+EXTERNAL SOURCES:
+  SuneelTDKit:
+    :path: "../SuneelTDKit"
+
+SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  LTSupportAutomotive: 890393b6f13ad95c24195e38b3160f7a04a06fd5
+  SuneelTDKit: e7586d0148ab6f74a99fabf67d49e2d20e6a7e2e
+
+PODFILE CHECKSUM: b51a2c4ef26a076938a87cec9b7bf461e2864590
+
+COCOAPODS: 1.11.2
