@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SuneelTDKit"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "best framework ever developed by suneel"
 
   spec.description  = "Description is more definately... why your thinking about the description... you may dont want the description"
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/suneelreddymunagala/ATDKit"
 
   spec.license      = "MIT"
-  spec.author             = { "Suneel Apprikart" => "developer@apprikart.com" }
+  spec.author       = { "Suneel Apprikart" => "developer@apprikart.com" }
   
   spec.platform     = :ios, "12.0"
   spec.source       = { :git => "https://github.com/suneelreddymunagala/ATDKit.git", :tag => spec.version.to_s }
@@ -40,7 +40,8 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
  spec.dependency "DropDown"
-   spec.dependency "LTSupportAutomotive", "~> 1.0"
-      spec.swift_versions = "5.0"
+spec.dependency "LTSupportAutomotive", "~> 1.0"
+spec.swift_versions = "5.0"
+spec.swift_version = "5.0"
 
 end
