@@ -4,8 +4,5 @@ target 'TestTD' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
- pod 'SuneelTDKit', :path=> '../SuneelTDKit'
-
-
-
+     pod 'SuneelTDKit', :path=> '../SuneelTDKit'
 end
