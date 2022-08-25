@@ -2,8 +2,8 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SuneelTDKit"
-  spec.version      = "1.0.2"
-  spec.summary      = "best framework ever developed by suneel"
+  spec.version      = "1.0.3"
+  spec.summary      = "first framework ever developed by suneel"
 
   spec.description  = "Description is more definately... why your thinking about the description... you may dont want the description"
 
@@ -16,8 +16,9 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/suneelreddymunagala/ATDKit.git", :tag => spec.version.to_s }
 
   spec.source_files  = "SuneelTDKit/**/*.{swift}"
-  s.resources = "MMA_Piece/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-  spec.resources = "MMA_Piece/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+ # s.resources = "SuneelTDKit/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  spec.resources = "SuneelTDKit/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,lproj}"
+spec.resource_bundles = "SuneelTDKit/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,lproj}"
   
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
