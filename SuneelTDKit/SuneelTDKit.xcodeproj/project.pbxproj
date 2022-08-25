@@ -9,12 +9,6 @@
 /* Begin PBXBuildFile section */
 		18428E8E28B60C4A0008CA0E /* SuneelTDKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 18428E8D28B60C4A0008CA0E /* SuneelTDKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18428E9828B60D4A0008CA0E /* TestDropdownPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18428E9728B60D4A0008CA0E /* TestDropdownPod.swift */; };
-		18E0569628B7154A00D276CB /* FAOBD2Communicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E0569028B7154A00D276CB /* FAOBD2Communicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18E0569728B7154A00D276CB /* BLEManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E0569128B7154A00D276CB /* BLEManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18E0569828B7154A00D276CB /* Transfer.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E0569228B7154A00D276CB /* Transfer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18E0569928B7154A00D276CB /* FAOBD2Communicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0569328B7154A00D276CB /* FAOBD2Communicator.m */; };
-		18E0569A28B7154A00D276CB /* BLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0569428B7154A00D276CB /* BLEManager.m */; };
-		18E0569B28B7154A00D276CB /* TransferService.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E0569528B7154A00D276CB /* TransferService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18E056B228B7155A00D276CB /* Pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E0569D28B7155A00D276CB /* Pause@2x.png */; };
 		18E056B328B7155A00D276CB /* Speaker@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E0569E28B7155A00D276CB /* Speaker@3x.png */; };
 		18E056B428B7155A00D276CB /* UnSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E0569F28B7155A00D276CB /* UnSelect@2x.png */; };
@@ -76,12 +70,6 @@
 		18428E8A28B60C4A0008CA0E /* SuneelTDKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SuneelTDKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18428E8D28B60C4A0008CA0E /* SuneelTDKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuneelTDKit.h; sourceTree = "<group>"; };
 		18428E9728B60D4A0008CA0E /* TestDropdownPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDropdownPod.swift; sourceTree = "<group>"; };
-		18E0569028B7154A00D276CB /* FAOBD2Communicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAOBD2Communicator.h; sourceTree = "<group>"; };
-		18E0569128B7154A00D276CB /* BLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEManager.h; sourceTree = "<group>"; };
-		18E0569228B7154A00D276CB /* Transfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transfer.h; sourceTree = "<group>"; };
-		18E0569328B7154A00D276CB /* FAOBD2Communicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAOBD2Communicator.m; sourceTree = "<group>"; };
-		18E0569428B7154A00D276CB /* BLEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEManager.m; sourceTree = "<group>"; };
-		18E0569528B7154A00D276CB /* TransferService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferService.h; sourceTree = "<group>"; };
 		18E0569D28B7155A00D276CB /* Pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pause@2x.png"; sourceTree = "<group>"; };
 		18E0569E28B7155A00D276CB /* Speaker@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Speaker@3x.png"; sourceTree = "<group>"; };
 		18E0569F28B7155A00D276CB /* UnSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UnSelect@2x.png"; sourceTree = "<group>"; };
@@ -199,12 +187,6 @@
 		18E0568F28B7154A00D276CB /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
-				18E0569028B7154A00D276CB /* FAOBD2Communicator.h */,
-				18E0569128B7154A00D276CB /* BLEManager.h */,
-				18E0569228B7154A00D276CB /* Transfer.h */,
-				18E0569328B7154A00D276CB /* FAOBD2Communicator.m */,
-				18E0569428B7154A00D276CB /* BLEManager.m */,
-				18E0569528B7154A00D276CB /* TransferService.h */,
 			);
 			path = "Third Party";
 			sourceTree = "<group>";
@@ -337,10 +319,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18428E8E28B60C4A0008CA0E /* SuneelTDKit.h in Headers */,
-				18E0569828B7154A00D276CB /* Transfer.h in Headers */,
-				18E0569728B7154A00D276CB /* BLEManager.h in Headers */,
-				18E0569B28B7154A00D276CB /* TransferService.h in Headers */,
-				18E0569628B7154A00D276CB /* FAOBD2Communicator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +453,6 @@
 				18E056CE28B7156600D276CB /* VCManager.swift in Sources */,
 				18E056F428B7157E00D276CB /* TDTriggerData.swift in Sources */,
 				18E0570828B7158500D276CB /* PeripheralDetailTVCell.swift in Sources */,
-				18E0569928B7154A00D276CB /* FAOBD2Communicator.m in Sources */,
 				18E056FC28B7157E00D276CB /* TDCustomerData.swift in Sources */,
 				18E056E728B7157900D276CB /* TDApiManager.swift in Sources */,
 				18E056E828B7157900D276CB /* TDCarApiManager.swift in Sources */,
@@ -493,7 +470,6 @@
 				18428E9828B60D4A0008CA0E /* TestDropdownPod.swift in Sources */,
 				18E056CD28B7156600D276CB /* TDAPI.swift in Sources */,
 				18E0570B28B7158500D276CB /* TDCustomerDetailsVC.swift in Sources */,
-				18E0569A28B7154A00D276CB /* BLEManager.m in Sources */,
 				18E0570E28B7158500D276CB /* TDTriggerDetailsVC.swift in Sources */,
 				18E056DD28B7157200D276CB /* Extension+UITextField.swift in Sources */,
 			);
